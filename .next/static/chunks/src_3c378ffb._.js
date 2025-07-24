@@ -880,58 +880,32 @@ function PropiedadesPage() {
         className: "min-h-screen bg-gray-50 pt-16",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white border-b border-gray-200 sticky top-16 z-40",
+                className: "bg-white border-b border-gray-200 py-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4 py-3",
+                    className: "max-w-7xl mx-auto px-4",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between",
+                        className: "flex items-center space-x-4",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                className: "flex space-x-6",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex-1 relative",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        className: "text-primary font-semibold",
-                                        children: "Alquilar"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
+                                        placeholder: "Buscar por ciudad, barrio o estación...",
+                                        value: searchQuery,
+                                        onChange: (e)=>setSearchQuery(e.target.value),
+                                        className: "pl-4 pr-12 py-3 text-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/propiedades/page.tsx",
                                         lineNumber: 243,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        className: "text-gray-600 hover:text-primary",
-                                        children: "Comprar"
+                                        size: "sm",
+                                        className: "absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary hover:bg-primary/90",
+                                        children: "🔍"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 244,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        className: "text-gray-600 hover:text-primary",
-                                        children: "Alquiler Vacacional"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 245,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        className: "text-gray-600 hover:text-primary",
-                                        children: "Proyectos Nuevos"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 246,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        className: "text-gray-600 hover:text-primary",
-                                        children: "Locales"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 247,
+                                        lineNumber: 249,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -940,56 +914,14 @@ function PropiedadesPage() {
                                 lineNumber: 242,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center space-x-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        className: "bg-primary hover:bg-primary/90 text-secondary",
-                                        children: "Publicar anuncio"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 250,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "outline",
-                                        children: "Iniciar sesión"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 253,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        size: "sm",
-                                        children: "🌐 ES"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 254,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        size: "sm",
-                                        children: "❓"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 255,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        size: "sm",
-                                        children: "🔔"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 256,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                variant: "outline",
+                                onClick: ()=>setShowMap(!showMap),
+                                className: showMap ? 'bg-primary text-secondary' : '',
+                                children: showMap ? 'Ocultar mapa' : 'Ver mapa'
+                            }, void 0, false, {
                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                lineNumber: 249,
+                                lineNumber: 256,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -1009,67 +941,6 @@ function PropiedadesPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white border-b border-gray-200 py-4",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center space-x-4",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex-1 relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
-                                        placeholder: "Buscar por ciudad, barrio o estación...",
-                                        value: searchQuery,
-                                        onChange: (e)=>setSearchQuery(e.target.value),
-                                        className: "pl-4 pr-12 py-3 text-lg"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 267,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        size: "sm",
-                                        className: "absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary hover:bg-primary/90",
-                                        children: "🔍"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 273,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/propiedades/page.tsx",
-                                lineNumber: 266,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                variant: "outline",
-                                onClick: ()=>setShowMap(!showMap),
-                                className: showMap ? 'bg-primary text-secondary' : '',
-                                children: showMap ? 'Ocultar mapa' : 'Ver mapa'
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/propiedades/page.tsx",
-                                lineNumber: 280,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/propiedades/page.tsx",
-                        lineNumber: 265,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/app/propiedades/page.tsx",
-                    lineNumber: 264,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/propiedades/page.tsx",
-                lineNumber: 263,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 py-6",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex gap-6",
@@ -1085,12 +956,12 @@ function PropiedadesPage() {
                                             children: "Filtros"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 273,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 272,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1111,7 +982,7 @@ function PropiedadesPage() {
                                                                 children: "Rango de Precio"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 303,
+                                                                lineNumber: 279,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1128,7 +999,7 @@ function PropiedadesPage() {
                                                                             className: "w-full"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 306,
+                                                                            lineNumber: 282,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,7 +1012,7 @@ function PropiedadesPage() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 315,
+                                                                                    lineNumber: 291,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1151,30 +1022,30 @@ function PropiedadesPage() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 316,
+                                                                                    lineNumber: 292,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 314,
+                                                                            lineNumber: 290,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 305,
+                                                                    lineNumber: 281,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 304,
+                                                                lineNumber: 280,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 302,
+                                                        lineNumber: 278,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -1184,7 +1055,7 @@ function PropiedadesPage() {
                                                                 children: "Tipo de Propiedad"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 324,
+                                                                lineNumber: 300,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1203,7 +1074,7 @@ function PropiedadesPage() {
                                                                                 onCheckedChange: ()=>togglePropertyType(type)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 328,
+                                                                                lineNumber: 304,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1212,24 +1083,24 @@ function PropiedadesPage() {
                                                                                 children: getPropertyTypeDisplay(type)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 333,
+                                                                                lineNumber: 309,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, type, true, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 327,
+                                                                        lineNumber: 303,
                                                                         columnNumber: 25
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 325,
+                                                                lineNumber: 301,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 299,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -1239,7 +1110,7 @@ function PropiedadesPage() {
                                                                 children: "Habitaciones"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 341,
+                                                                lineNumber: 317,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1252,12 +1123,12 @@ function PropiedadesPage() {
                                                                                 placeholder: "Cualquiera"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 345,
+                                                                                lineNumber: 321,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 344,
+                                                                            lineNumber: 320,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1267,7 +1138,7 @@ function PropiedadesPage() {
                                                                                     children: "Cualquiera"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 348,
+                                                                                    lineNumber: 324,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1275,7 +1146,7 @@ function PropiedadesPage() {
                                                                                     children: "1 habitación"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 349,
+                                                                                    lineNumber: 325,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1283,7 +1154,7 @@ function PropiedadesPage() {
                                                                                     children: "2 habitaciones"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 350,
+                                                                                    lineNumber: 326,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1291,7 +1162,7 @@ function PropiedadesPage() {
                                                                                     children: "3 habitaciones"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 351,
+                                                                                    lineNumber: 327,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1299,7 +1170,7 @@ function PropiedadesPage() {
                                                                                     children: "4 habitaciones"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 352,
+                                                                                    lineNumber: 328,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1307,30 +1178,30 @@ function PropiedadesPage() {
                                                                                     children: "5 o más"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 353,
+                                                                                    lineNumber: 329,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 347,
+                                                                            lineNumber: 323,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 343,
+                                                                    lineNumber: 319,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 342,
+                                                                lineNumber: 318,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 340,
+                                                        lineNumber: 316,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -1340,7 +1211,7 @@ function PropiedadesPage() {
                                                                 children: "Metros Cuadrados"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 361,
+                                                                lineNumber: 337,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1355,7 +1226,7 @@ function PropiedadesPage() {
                                                                                     children: "Mínimo"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 365,
+                                                                                    lineNumber: 341,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1365,13 +1236,13 @@ function PropiedadesPage() {
                                                                                     type: "number"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 366,
+                                                                                    lineNumber: 342,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 364,
+                                                                            lineNumber: 340,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1381,7 +1252,7 @@ function PropiedadesPage() {
                                                                                     children: "Máximo"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 374,
+                                                                                    lineNumber: 350,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1391,30 +1262,30 @@ function PropiedadesPage() {
                                                                                     type: "number"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 375,
+                                                                                    lineNumber: 351,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                            lineNumber: 373,
+                                                                            lineNumber: 349,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 363,
+                                                                    lineNumber: 339,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 362,
+                                                                lineNumber: 338,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 336,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -1424,7 +1295,7 @@ function PropiedadesPage() {
                                                                 children: "Características"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 388,
+                                                                lineNumber: 364,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1447,7 +1318,7 @@ function PropiedadesPage() {
                                                                                 onCheckedChange: ()=>toggleFeature(feature)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 392,
+                                                                                lineNumber: 368,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1456,24 +1327,24 @@ function PropiedadesPage() {
                                                                                 children: feature
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 397,
+                                                                                lineNumber: 373,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, feature, true, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 391,
+                                                                        lineNumber: 367,
                                                                         columnNumber: 25
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 389,
+                                                                lineNumber: 365,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 387,
+                                                        lineNumber: 363,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
@@ -1483,7 +1354,7 @@ function PropiedadesPage() {
                                                                 children: "Tipo de Alquiler"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 405,
+                                                                lineNumber: 381,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
@@ -1498,7 +1369,7 @@ function PropiedadesPage() {
                                                                                 onCheckedChange: ()=>toggleRentalType('temporal')
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 408,
+                                                                                lineNumber: 384,
                                                                                 columnNumber: 25
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1507,13 +1378,13 @@ function PropiedadesPage() {
                                                                                 children: "Temporal"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 413,
+                                                                                lineNumber: 389,
                                                                                 columnNumber: 25
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 407,
+                                                                        lineNumber: 383,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1525,7 +1396,7 @@ function PropiedadesPage() {
                                                                                 onCheckedChange: ()=>toggleRentalType('larga-temporada')
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 416,
+                                                                                lineNumber: 392,
                                                                                 columnNumber: 25
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Label"], {
@@ -1534,31 +1405,31 @@ function PropiedadesPage() {
                                                                                 children: "Larga temporada"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 421,
+                                                                                lineNumber: 397,
                                                                                 columnNumber: 25
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 415,
+                                                                        lineNumber: 391,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 406,
+                                                                lineNumber: 382,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 404,
+                                                        lineNumber: 380,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 276,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1580,24 +1451,24 @@ function PropiedadesPage() {
                                                 children: "Limpiar filtros"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 427,
+                                                lineNumber: 403,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 275,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                lineNumber: 295,
+                                lineNumber: 271,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/propiedades/page.tsx",
-                            lineNumber: 294,
+                            lineNumber: 270,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1619,7 +1490,7 @@ function PropiedadesPage() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 453,
+                                                        lineNumber: 429,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1629,7 +1500,7 @@ function PropiedadesPage() {
                                                         children: "❤️ Guardar búsqueda"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 456,
+                                                        lineNumber: 432,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1639,13 +1510,13 @@ function PropiedadesPage() {
                                                         children: "📤 Compartir"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 459,
+                                                        lineNumber: 435,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 452,
+                                                lineNumber: 428,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1659,12 +1530,12 @@ function PropiedadesPage() {
                                                                 className: "w-48",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectValue"], {}, void 0, false, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 466,
+                                                                    lineNumber: 442,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 465,
+                                                                lineNumber: 441,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -1674,7 +1545,7 @@ function PropiedadesPage() {
                                                                         children: "Relevancia"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 469,
+                                                                        lineNumber: 445,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1682,7 +1553,7 @@ function PropiedadesPage() {
                                                                         children: "Precio (menor a mayor)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 470,
+                                                                        lineNumber: 446,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1690,7 +1561,7 @@ function PropiedadesPage() {
                                                                         children: "Precio (mayor a menor)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 471,
+                                                                        lineNumber: 447,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -1698,19 +1569,19 @@ function PropiedadesPage() {
                                                                         children: "Más recientes"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 472,
+                                                                        lineNumber: 448,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 468,
+                                                                lineNumber: 444,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 464,
+                                                        lineNumber: 440,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1724,7 +1595,7 @@ function PropiedadesPage() {
                                                                 children: "⊞"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 476,
+                                                                lineNumber: 452,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1735,30 +1606,30 @@ function PropiedadesPage() {
                                                                 children: "☰"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 484,
+                                                                lineNumber: 460,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 475,
+                                                        lineNumber: 451,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 463,
+                                                lineNumber: 439,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                        lineNumber: 451,
+                                        lineNumber: 427,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                    lineNumber: 450,
+                                    lineNumber: 426,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1778,7 +1649,7 @@ function PropiedadesPage() {
                                                                 children: "Sigue con tu última búsqueda"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 503,
+                                                                lineNumber: 479,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1786,13 +1657,13 @@ function PropiedadesPage() {
                                                                 children: "Inmuebles en Madrid"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 504,
+                                                                lineNumber: 480,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 502,
+                                                        lineNumber: 478,
                                                         columnNumber: 19
                                                     }, this),
                                                     isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1802,7 +1673,7 @@ function PropiedadesPage() {
                                                                 className: "animate-spin w-12 h-12 border-4 border-primary border-t-transparent rounded-full mx-auto mb-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 509,
+                                                                lineNumber: 485,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1810,13 +1681,13 @@ function PropiedadesPage() {
                                                                 children: "Cargando propiedades..."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 510,
+                                                                lineNumber: 486,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 508,
+                                                        lineNumber: 484,
                                                         columnNumber: 21
                                                     }, this) : error ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "text-center py-12",
@@ -1826,7 +1697,7 @@ function PropiedadesPage() {
                                                                 children: error
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 514,
+                                                                lineNumber: 490,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1835,13 +1706,13 @@ function PropiedadesPage() {
                                                                 children: "Reintentar"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 515,
+                                                                lineNumber: 491,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 513,
+                                                        lineNumber: 489,
                                                         columnNumber: 21
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                         children: [
@@ -1860,7 +1731,7 @@ function PropiedadesPage() {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 537,
+                                                                                lineNumber: 513,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1871,7 +1742,7 @@ function PropiedadesPage() {
                                                                                         children: getPropertyTypeDisplay(property.propertyType)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 543,
+                                                                                        lineNumber: 519,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     property.isNew && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1879,7 +1750,7 @@ function PropiedadesPage() {
                                                                                         children: "Nuevo hoy"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 547,
+                                                                                        lineNumber: 523,
                                                                                         columnNumber: 33
                                                                                     }, this),
                                                                                     property.isTemporal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1887,13 +1758,13 @@ function PropiedadesPage() {
                                                                                         children: "Alquiler temporal"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 552,
+                                                                                        lineNumber: 528,
                                                                                         columnNumber: 33
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 542,
+                                                                                lineNumber: 518,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1904,7 +1775,7 @@ function PropiedadesPage() {
                                                                                         children: property.address
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 560,
+                                                                                        lineNumber: 536,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1912,13 +1783,13 @@ function PropiedadesPage() {
                                                                                         children: property.area
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 563,
+                                                                                        lineNumber: 539,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 559,
+                                                                                lineNumber: 535,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1933,7 +1804,7 @@ function PropiedadesPage() {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 569,
+                                                                                lineNumber: 545,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             property.amenities.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1946,7 +1817,7 @@ function PropiedadesPage() {
                                                                                                 children: amenity
                                                                                             }, idx, false, {
                                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                                lineNumber: 578,
+                                                                                                lineNumber: 554,
                                                                                                 columnNumber: 37
                                                                                             }, this)),
                                                                                         property.amenities.length > 4 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1958,25 +1829,25 @@ function PropiedadesPage() {
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                            lineNumber: 583,
+                                                                                            lineNumber: 559,
                                                                                             columnNumber: 37
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                    lineNumber: 576,
+                                                                                    lineNumber: 552,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 575,
+                                                                                lineNumber: 551,
                                                                                 columnNumber: 31
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                                                                 className: "border-gray-200 my-4"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 592,
+                                                                                lineNumber: 568,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1991,7 +1862,7 @@ function PropiedadesPage() {
                                                                                                 children: "Contactar"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                                lineNumber: 597,
+                                                                                                lineNumber: 573,
                                                                                                 columnNumber: 33
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2002,13 +1873,13 @@ function PropiedadesPage() {
                                                                                                 children: "Llamar"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                                lineNumber: 603,
+                                                                                                lineNumber: 579,
                                                                                                 columnNumber: 33
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 596,
+                                                                                        lineNumber: 572,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2022,7 +1893,7 @@ function PropiedadesPage() {
                                                                                                 children: "♡"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                                lineNumber: 613,
+                                                                                                lineNumber: 589,
                                                                                                 columnNumber: 33
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2033,30 +1904,30 @@ function PropiedadesPage() {
                                                                                                 children: "↗"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                                lineNumber: 621,
+                                                                                                lineNumber: 597,
                                                                                                 columnNumber: 33
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                        lineNumber: 612,
+                                                                                        lineNumber: 588,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                                lineNumber: 595,
+                                                                                lineNumber: 571,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, property.id, true, {
                                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                        lineNumber: 530,
+                                                                        lineNumber: 506,
                                                                         columnNumber: 27
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 525,
+                                                                lineNumber: 501,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2069,12 +1940,12 @@ function PropiedadesPage() {
                                                                     children: "Mostrar todos los inmuebles"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 637,
+                                                                    lineNumber: 613,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                lineNumber: 636,
+                                                                lineNumber: 612,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
@@ -2082,12 +1953,12 @@ function PropiedadesPage() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 500,
+                                                lineNumber: 476,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                            lineNumber: 499,
+                                            lineNumber: 475,
                                             columnNumber: 15
                                         }, this),
                                         showMap && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2106,7 +1977,7 @@ function PropiedadesPage() {
                                                                     children: "🗺️"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 658,
+                                                                    lineNumber: 634,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2114,7 +1985,7 @@ function PropiedadesPage() {
                                                                     children: "Mapa Interactivo"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 659,
+                                                                    lineNumber: 635,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2125,7 +1996,7 @@ function PropiedadesPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 660,
+                                                                    lineNumber: 636,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2135,56 +2006,56 @@ function PropiedadesPage() {
                                                                     children: "Dibujar área"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                                    lineNumber: 663,
+                                                                    lineNumber: 639,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                                            lineNumber: 657,
+                                                            lineNumber: 633,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/propiedades/page.tsx",
-                                                        lineNumber: 656,
+                                                        lineNumber: 632,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                                    lineNumber: 655,
+                                                    lineNumber: 631,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/propiedades/page.tsx",
-                                                lineNumber: 654,
+                                                lineNumber: 630,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/propiedades/page.tsx",
-                                            lineNumber: 653,
+                                            lineNumber: 629,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/propiedades/page.tsx",
-                                    lineNumber: 497,
+                                    lineNumber: 473,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/propiedades/page.tsx",
-                            lineNumber: 448,
+                            lineNumber: 424,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/propiedades/page.tsx",
-                    lineNumber: 292,
+                    lineNumber: 268,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/propiedades/page.tsx",
-                lineNumber: 291,
+                lineNumber: 267,
                 columnNumber: 7
             }, this)
         ]
